@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+* {scroll-behavior: smooth;}
+body {margin: 0px;overflow-x: hidden;}
+#menu {width: 180px; height: 200px;
+position:fixed;
+top:300px; right: 50px;
+font-size: 1.6rem; line-height: 80px; text-align: center; 
+z-index: 999;}
+
+
+#menu a {text-decoration: none; color:white; transition: color 0.3s ease; font-weight: bold;}
+#menu a:hover {color: #9B59B6  ;}
+
+#wrap {width: 0px; margin:auto;}
+
+#introbg {width: 2200px; height: 960px; background-color: rgb(255, 227, 175); margin-left: -1100px;}
+#intro {width:1200px; height:960px; background-color: rgb(255, 227, 175);
+margin:auto ; text-align: center; font-size: 3rem; line-height: 950px;}
+#bgmovie {height: 960px;position: absolute; top: 0px; 
+    left:50%; margin-left: -1100px;
+z-index: 10}
+
+#portbg {width: 2200px; height: 960px; background-color:rgb(59, 141, 130); margin-left: -1100px;}
+#portfolio {width:1200px; height:960px; background-color: rgb(59, 141, 130);
+margin:auto; font-size:6rem; line-height:150px;color: white;
+padding-top: 50px; box-sizing: border-box; position: relative; z-index: 1;}
+.thumb {width:550px;  display: block;} 
+.thumb:hover{border: 10px solid rgb(250, 183, 71);}
+
+label {width:550px; height: 350px; display: block; float: left;
+    margin-left: 30px;}
+#port {position: relative; top:-40px ; left:30px ; font-weight:bold;}
+#tool {   position:absolute; top: 30px; left: 550px;}
+
+
+#probg {width: 2200px; height: 960px; background-color: rgb(236, 125, 80); margin-left: -1100px;}
+#profile {width:1200px; height:960px; background-color: rgb(236, 125, 80);
+margin:auto; text-align: center; font-size: 3rem; line-height: 400px;}
+#book {margin-top: 35px;}
+#smart {width: 600px; height: 600px; 
+    position: absolute;
+    top:2400px; right: 190px;  z-index: 999;}
+#com {position: absolute; top:1750px; left:  250px;  z-index: 999;}
+
+#contbg {width: 2200px; height: 960px; background-color: rgb(255, 212, 108); margin-left: -1100px;}
+#contact {width:1200px; height:960px; background-color: rgb(255, 212, 108);
+margin:auto; text-align: center; font-size: 6rem; line-height: 300px;font-weight: bold;
+color:#645054;}
+
+#mouse {   position:absolute; top: 2920px; right: 670px;}
+
+#phone {margin-right:20px;}
+#people {position: absolute; top: 3340px; right: 230px;}
+#cam {position: absolute; top: 3420px; left: 100px; scale: 80%;}
